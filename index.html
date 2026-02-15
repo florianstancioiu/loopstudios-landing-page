@@ -16,15 +16,15 @@
   </head>
   <body>
     <header>
-      <div class="logo-and-menu-wrapper">
-        <img src="./images/logo.svg" alt="Loopstudios Logo" />
-        <img src="./images/icon-hamburger.svg" alt="" />
+      <div class="logo-and-menu">
+        <img class="logo" src="./images/logo.svg" alt="Loopstudios Logo" />
+        <img class="menu" src="./images/icon-hamburger.svg" alt="" />
       </div>
       <div class="hero-text">Immersive experiences that deliver</div>
     </header>
     <main>
-      <section class="interactive-vr-wrapper">
-        <img src="" alt="" />
+      <section class="interactive-vr">
+        <img src="./images/mobile/image-interactive.jpg" alt="" />
         <div class="text-wrapper">
           <p class="title">The leader in interactive VR</p>
           <p class="description">
@@ -35,16 +35,24 @@
           </p>
         </div>
       </section>
-      <section class="our-creations-wrapper">
+      <section class="our-creations">
         <div class="title-wrapper">
           <p class="title">Our Creations</p>
           <a href="#" class="btn">See All</a>
         </div>
         <ul class="creations-list">
-          <li class="creation-item-wrapper">
-            <div>
-              <p class="title">Deep Earth</p>
-            </div>
+          <li class="creation-item">
+            <picture>
+              <source
+                srcset="./images/desktop/image-deep-earth.jpg"
+                media="(width >= 1116px)"
+              />
+              <img
+                src="./images/mobile/image-deep-earth.jpg"
+                alt="Deep Earth"
+              />
+            </picture>
+            <p class="title">Deep Earth</p>
           </li>
         </ul>
         <div class="mobile-btn-wrapper">
