@@ -62,7 +62,7 @@
     </main>
     <footer>
       <div class="logo-and-links">
-        <img src="./images/logo.svg" alt="Loopstudios Logo" />
+        <img class="logo" src="./images/logo.svg" alt="Loopstudios Logo" />
         <ul>
           <li>
             <a href="#">About</a>
@@ -104,8 +104,26 @@
             </a>
           </li>
         </ul>
-        <p>© 2021 Loopstudios. All rights reserved.</p>
+        <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
       </div>
     </footer>
+
+    <template id="creation-item-template">
+      <li class="creation-item">
+        <picture>
+          <source
+            class="desktop-image"
+            srcset="./images/desktop/image-deep-earth.jpg"
+            media="(width >= 1116px)"
+          />
+          <img
+            class="mobile-image"
+            src="./images/mobile/image-deep-earth.jpg"
+            alt="Deep Earth"
+          />
+        </picture>
+        <p class="title">Deep Earth</p>
+      </li>
+    </template>
   </body>
 </html>

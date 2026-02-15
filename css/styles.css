@@ -135,7 +135,6 @@ main {
       color: var(--color-white);
       font-family: var(--font-alata);
       font-size: 36px;
-      word-spacing: 100vw;
       text-transform: uppercase;
     }
   }
@@ -143,4 +142,47 @@ main {
 
 .mobile-btn-wrapper {
   text-align: center;
+}
+
+footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-align: center;
+  padding: 106px 0 116px;
+
+  & .logo-and-links {
+    & .logo {
+      display: block;
+      margin: 0 auto 80px;
+    }
+    & ul {
+      list-style: none;
+      padding: 0;
+      li {
+        margin-bottom: 50px;
+      }
+      & a {
+        color: var(--color-white);
+        font-weight: 500;
+        font-size: 28px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  & .social-links-and-copyright {
+    & ul {
+      list-style: none;
+      display: flex;
+      column-gap: 30px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 42px;
+    }
+    & .copyright {
+      color: var(--color-grey);
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
 }
