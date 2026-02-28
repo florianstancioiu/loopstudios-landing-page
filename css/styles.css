@@ -20,6 +20,15 @@ body {
   position: relative;
 }
 
+@media (min-width: 1112px) {
+  .inner-header,
+  main,
+  .inner-footer {
+    max-width: 1112px;
+    margin: 0 auto;
+  }
+}
+
 header {
   padding-top: 72px;
   padding-left: 45px;
@@ -30,6 +39,14 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
+  @media (min-width: 1112px) {
+    background-image: url("../images/desktop/image-hero.jpg");
+    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 144px;
+  }
 
   & .mobile-menu {
     display: none;
@@ -96,6 +113,28 @@ header {
   & .menu {
     width: 48px;
     cursor: pointer;
+
+    @media (min-width: 1112px) {
+      display: none;
+    }
+  }
+
+  & .desktop-menu-links {
+    display: none;
+
+    @media (min-width: 1112px) {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 32px;
+      list-style: none;
+
+      & a {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+    }
   }
 }
 
@@ -123,10 +162,23 @@ header {
   font-weight: 400;
   font-style: normal;
   word-spacing: 100vw;
+
+  @media (min-width: 1112px) {
+    margin-top: 120px;
+    max-width: 650px;
+    line-height: 74px;
+    word-spacing: normal;
+    border-width: 2px;
+  }
 }
 
 main {
   padding: 195px 48px 190px;
+
+  @media (min-width: 1112px) {
+    max-width: 1112px;
+    margin: 0 auto;
+  }
 }
 
 .interactive-vr {
