@@ -342,6 +342,38 @@ footer {
   text-align: center;
   padding: 106px 0 116px;
 
+  @media (min-width: 1112px) {
+    padding: 40px 0 45px;
+    & .inner-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      & .logo-and-links .logo {
+        margin: 0;
+        margin-bottom: 24px;
+      }
+
+      & .links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 32px;
+
+        & li {
+          margin-bottom: 0;
+          & a {
+            font-size: 26px;
+          }
+        }
+      }
+
+      & .social-links {
+        justify-content: right;
+      }
+    }
+  }
+
   & .logo-and-links {
     & .logo {
       display: block;
