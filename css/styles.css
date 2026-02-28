@@ -344,14 +344,21 @@ footer {
 
   @media (min-width: 1112px) {
     padding: 40px 0 45px;
+    text-align: left;
     & .inner-footer {
       display: flex;
       justify-content: space-between;
       align-items: start;
 
-      & .logo-and-links .logo {
-        margin: 0;
-        margin-bottom: 24px;
+      & .logo-and-links {
+        & .logo-link {
+          display: inline-block;
+        }
+
+        & .logo {
+          margin: 0;
+          margin-bottom: 24px;
+        }
       }
 
       & .links {
