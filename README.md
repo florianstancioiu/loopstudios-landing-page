@@ -71,9 +71,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Daily summaries
 
-| Date                | Time Spent       | Summary                                         |
-| ------------------- | ---------------- | ----------------------------------------------- |
-| February 15th, 2026 | 1.5 hours        | I worked on the mobile version of the challenge |
-| February 15th, 2026 | started at 14:00 |                                                 |
+| Date                | Time Spent | Summary                                                                                           |
+| ------------------- | ---------- | ------------------------------------------------------------------------------------------------- |
+| February 15th, 2026 | 1.5 hours  | I worked on the tablet version of the challenge                                                   |
+| February 28th, 2026 | 1.5 hours  | I worked on the tablet version of the menu and started to work on the desktop version of the page |
 
-_Total time spent working on the project:_ **1.5 hours**
+_Total time spent working on the project:_ **3 hours**
