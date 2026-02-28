@@ -45,7 +45,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Tablet-first workflow (because the free plan doesn't include a mobile design)
 - Vanilla JavaScript
 
 ### What I learned

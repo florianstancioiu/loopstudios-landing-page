@@ -17,6 +17,7 @@ body {
   font-style: normal;
   font-size: 15px;
   color: var(--color-grey);
+  position: relative;
 }
 
 header {
@@ -29,6 +30,58 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
+  & .mobile-menu {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 75px 45px 0;
+
+    & .logo {
+      width: 288px;
+    }
+
+    & .logo-and-close-btn {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 325px;
+
+      & .close-menu-btn {
+        width: 48px;
+        cursor: pointer;
+      }
+    }
+
+    & .mobile-menu-links {
+      padding: 0;
+      list-style: none;
+      & li {
+        margin-bottom: 60px;
+        height: 38px;
+      }
+      & a {
+        color: var(--color-white);
+        font-size: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  & .mobile-menu.visible {
+    display: block;
+
+    @media (min-width: 1112px) {
+      display: none;
+    }
+  }
 }
 
 .logo-and-menu {
