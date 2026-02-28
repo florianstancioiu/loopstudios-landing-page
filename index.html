@@ -71,7 +71,17 @@
     </header>
     <main>
       <section class="interactive-vr">
-        <img src="./images/mobile/image-interactive.jpg" alt="" />
+        <picture>
+          <source
+            srcset="./images/desktop/image-interactive.jpg"
+            media="(width >= 1112px)"
+          />
+          <img
+            class="interactive-vr-image"
+            src="./images/mobile/image-interactive.jpg"
+            alt="Interactive VR"
+          />
+        </picture>
         <div class="text-wrapper">
           <p class="title">The leader in interactive VR</p>
           <p class="description">
@@ -149,7 +159,7 @@
           <source
             class="desktop-image"
             srcset="./images/desktop/image-deep-earth.jpg"
-            media="(width >= 1116px)"
+            media="(width >= 1112px)"
           />
           <img
             class="mobile-image"

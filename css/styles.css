@@ -178,10 +178,41 @@ main {
   @media (min-width: 1112px) {
     max-width: 1112px;
     margin: 0 auto;
+    padding: 160px 0 180px;
   }
 }
 
 .interactive-vr {
+  @media (min-width: 1112px) {
+    position: relative;
+    & .text-wrapper {
+      background-color: var(--color-white);
+      width: 542px;
+      position: absolute;
+      top: 185px;
+      left: 570px;
+      padding-top: 95px;
+      padding-left: 95px;
+      & .title,
+      & .description {
+        text-align: left;
+      }
+
+      & .title {
+        line-height: 40px;
+        font-size: 40px;
+        margin-bottom: 40px;
+      }
+
+      & .description {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+    & img {
+      max-width: 730px;
+    }
+  }
   & img {
     margin-bottom: 98px;
     width: 100%;
