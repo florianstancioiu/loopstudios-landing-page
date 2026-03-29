@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .setAttribute("srcset", creation.image.desktop);
     $clone
       .querySelector(".mobile-image")
-      .setAttribute("srcset", creation.image.mobile);
+      .setAttribute("src", creation.image.mobile);
     $clone.querySelector(".mobile-image").setAttribute("alt", creation.title);
     $clone.querySelector(".title").textContent = creation.title;
 
@@ -30,6 +30,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const renderCreations = (data) => {
     const $template = document.querySelector("#creation-item-template");
     const $container = document.querySelector(".creations-list");
+
+    if (!$template) {
+      return;
+    }
+
+    if (!$container) {
+      return;
+    }
 
     for (let i = 0; i < data.length; i++) {
       const $clone = document.importNode($template.content, true).children[0];
