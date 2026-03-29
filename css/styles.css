@@ -137,7 +137,12 @@ header {
         font-size: 15px;
         font-weight: bold;
         text-decoration: none;
+        padding-bottom: 10px;
         color: white;
+
+        &:hover {
+          border-bottom: 2px solid white;
+        }
       }
     }
   }
@@ -256,6 +261,11 @@ main {
     }
     & .title-wrapper > .btn {
       display: block;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
     }
   }
 
@@ -381,12 +391,24 @@ footer {
           margin-bottom: 0;
           & a {
             font-size: 18px;
+
+            &:hover {
+              padding-bottom: 10px;
+              border-bottom: 2px solid white;
+            }
           }
         }
       }
 
       & .social-links {
         justify-content: right;
+        & img {
+          padding-bottom: 10px;
+          border-bottom: 2px solid transparent;
+        }
+        & img:hover {
+          border-bottom: 2px solid white;
+        }
       }
     }
   }
