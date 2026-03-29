@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL: [https://florianstancioiu.github.io/loopstudios-landing-page/](https://florianstancioiu.github.io/loopstudios-landing-page/)
+- Frontend Mentor URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-with-vanilla-javascript-and-css-nesting-q79pRn0con](https://www.frontendmentor.io/solutions/responsive-landing-page-with-vanilla-javascript-and-css-nesting-q79pRn0con)
 
 ## My process
 
