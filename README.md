@@ -59,7 +59,7 @@ I would take some time to create the mobile version of the challenge
 
 ### Useful resources
 
-- [<picture>: The Picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture) - Helped me set different image versions for mobile and desktop
+- [The Picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture) - Helped me set different image versions for mobile and desktop
 - [Can CSS force a line break after each word in an element?](https://stackoverflow.com/a/23889196/12159189) - Helped me set each word on a new line using plain CSS
 
 ## Author
