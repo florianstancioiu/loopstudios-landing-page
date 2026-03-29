@@ -441,6 +441,7 @@ footer {
       justify-content: center;
       align-items: center;
       margin-bottom: 20px;
+      padding: 0;
     }
     & .copyright {
       color: var(--color-grey);

@@ -22,14 +22,14 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size (tablet and desktop)
 - See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./tablet-screenshot.png)
 
-![](./screenshot.jpg)
+![](./desktop-screenshot.png)
 
 ### Links
 
@@ -55,7 +55,7 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would take some time to create the mobile version of the challenge
 
 ### Useful resources
 
