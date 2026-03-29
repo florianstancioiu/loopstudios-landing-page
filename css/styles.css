@@ -108,6 +108,10 @@ header {
 
   & .logo {
     width: 288px;
+
+    @media (min-width: 1112px) {
+      width: 190px;
+    }
   }
 
   & .menu {
@@ -125,11 +129,12 @@ header {
     @media (min-width: 1112px) {
       display: flex;
       justify-content: space-between;
-      column-gap: 32px;
+      align-items: center;
+      column-gap: 28px;
       list-style: none;
 
       & a {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: bold;
         text-decoration: none;
         color: white;
@@ -164,11 +169,14 @@ header {
   word-spacing: 100vw;
 
   @media (min-width: 1112px) {
-    margin-top: 120px;
+    margin-top: 130px;
+    padding: 40px 40px;
     max-width: 650px;
-    line-height: 74px;
+    line-height: 66px;
     word-spacing: normal;
     border-width: 2px;
+    font-weight: 200;
+    font-size: 70px;
   }
 }
 
@@ -200,9 +208,9 @@ main {
       }
 
       & .title {
-        line-height: 40px;
-        font-size: 40px;
-        margin-bottom: 40px;
+        line-height: 50px;
+        font-size: 50px;
+        margin-bottom: 28px;
       }
 
       & .description {
@@ -263,8 +271,8 @@ main {
 
     @media (min-width: 1112px) {
       margin-bottom: 0;
-      line-height: 40px;
-      font-size: 40px;
+      line-height: 50px;
+      font-size: 50px;
     }
   }
 
@@ -273,7 +281,7 @@ main {
 
     @media (min-width: 1112px) {
       display: inline-block;
-      padding: 0 36px;
+      padding: 0 44px;
       height: 40px;
       line-height: 40px;
       margin: 0;
@@ -322,7 +330,8 @@ main {
         left: 42px;
         bottom: 40px;
         max-width: 140px;
-        font-size: 28px;
+        font-size: 32px;
+        line-height: 30px;
       }
     }
   }
@@ -343,7 +352,7 @@ footer {
   padding: 106px 0 116px;
 
   @media (min-width: 1112px) {
-    padding: 40px 0 45px;
+    padding: 58px 0 45px;
     text-align: left;
     & .inner-footer {
       display: flex;
@@ -357,7 +366,8 @@ footer {
 
         & .logo {
           margin: 0;
-          margin-bottom: 24px;
+          margin-bottom: 20px;
+          max-width: 145px;
         }
       }
 
@@ -365,12 +375,12 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        column-gap: 32px;
+        column-gap: 24px;
 
         & li {
           margin-bottom: 0;
           & a {
-            font-size: 26px;
+            font-size: 18px;
           }
         }
       }
@@ -405,14 +415,14 @@ footer {
     & ul {
       list-style: none;
       display: flex;
-      column-gap: 30px;
+      column-gap: 18px;
       justify-content: center;
       align-items: center;
-      margin-bottom: 42px;
+      margin-bottom: 20px;
     }
     & .copyright {
       color: var(--color-grey);
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 500;
     }
   }
